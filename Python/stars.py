@@ -6,8 +6,8 @@ def draw_stars(star):
             print ('*')*star[num]
         else:
             word=star[num]
-            long=len(star[num])
-            print word[0]*long
+            word_length=len(star[num])
+            print word[0]*word_length
 
 
 draw_stars([4,'Tom',1,'Michael',5,7,'Jimmy Smith']); 
