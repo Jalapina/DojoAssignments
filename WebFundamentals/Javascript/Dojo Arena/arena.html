@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Games Arena</title>
+    <link rel="stylesheet" type="text/css" href="arena.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="arena.js"></script>
+    <title>
+    </title>
+  </head>
+  <body>
+    <div id="arena_select">
+      <p id="arena_title">SELECT ARENA</p>
+      <button id="dojo">Dojo</button>
+      <button id="beach">Beach</button>
+      <button id="earth">Earth</button>
+      <!------------------------------>
+      <button id="matrix">Matrix</button>
+      <button id="snow">Snow</button>
+      <button id="forest">Forest</button>
+    </div> <!--End of arena_select-->
+
+    <div id=player_select>
+      <div id="player1">
+        <!-- <h1>Player Select</h1> -->
+        <select id="first" name="player">
+          <option value="">Select</option>
+          <option value="donny">Donny</option>
+          <option value="leo">Leo</option>
+          <option value="raphael">Raphael</option>
+          <option value="mikey">Mikey</option>
+        </select>
+      </div><!--End of player one-->
+      <!------------------------------------->
+      <div id="player2">
+        <select id="second"   name="player">
+          <option value="">Select</option>
+          <option value="donny">Donny</option>
+          <option value="leo">Leo</option>
+          <option value="raphael">Raphael</option>
+          <option value="mikey">Mikey</option>
+        </select>
+      </div> <!--End of player2-->
+    </div> <!--End of player_select-->
+
+    <div class="play">
+      <img id=player_left src="">
+    </div><!--left turtle position-->
+    <div class="play">
+      <img id="player_right" src="">
+    </div><!--right turtle position-->
+
+  </body>
+</html>
