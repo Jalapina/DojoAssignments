@@ -1,12 +1,13 @@
+import random 
 
-students = [
-     {'first_name':  'Michael', 'last_name' : 'Jordan'},
-     {'first_name' : 'John', 'last_name' : 'Rosales'},
-     {'first_name' : 'Mark', 'last_name' : 'Guillen'},
-     {'first_name' : 'KB', 'last_name' : 'Tonel'}
-]
+for students in range(0,10):
+    score = random.randint(60,100)
 
-# print students
-
-for person in students:
-    print person[1]
+    if score < 70:
+        print "Score:",score,'; your grade is D'
+    elif score < 80:
+        print "Score:",score,'; your grade is C'
+    elif score < 90:
+        print "Score:",score,'; your grade is B'
+    else:
+        print "Score:",score,'; your grade is A'
