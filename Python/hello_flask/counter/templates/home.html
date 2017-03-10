@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <form action="/add" method="POST">
+    <h2>{{session['counter']}} time(s)</h2>
+    <input type="submit" name="button" value="Add 2">
+    <br>
+    </form>
+    
+    <form action="/restore" mathod="POST">
+    <input type="submit" name="reset" value="Reset">
+    </form>
+</body>
+</html>
